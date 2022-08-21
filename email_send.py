@@ -9,7 +9,7 @@ PASSWORD = input('E-Mail Account Passwort eingeben: ')
 SMTP_SERVER = 'smtp.ionos.de'
 SMTP_PORT = 465
 
-RECIPIENT = ['info@ingo-janssen.de', 'ingo.m.janssen@gmail.com']
+RECIPIENT = ['info@ingo-janssen.de']
 SUBJECT = 'Ein netter Gruß.'
 MESSAGE_TEXT = '''Guten Morgen!
 Ich wünsche dir einen wunderschönen Tag!'''
