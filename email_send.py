@@ -35,7 +35,7 @@ def send_text_email():
 
 
 def send_html_email():
-    message = MIMEMultipart('alternative')
+    message = MIMEMultipart()
     message['Subject'] = SUBJECT
     message['From'] = SENDER
     message['To'] = ','.join(RECIPIENT)
